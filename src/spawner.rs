@@ -15,7 +15,7 @@ pub fn spawn_player(ecs: &mut World, pos: Point) {
     ));
 }
 
-pub fn spawn_amulate_of_yala(ecs: &mut World, pos: Point) {
+pub fn spawn_amulet_of_yala(ecs: &mut World, pos: Point) {
     ecs.push((
         Item,
         AmuletOfYala,
